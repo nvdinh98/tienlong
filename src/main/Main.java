@@ -1,10 +1,10 @@
 package main;
 
-import login.MenuUser;
+import veiw.MenuAdminManager;
 
 public class Main {
     public static void main(String[] args) {
-        MenuUser managerUser = new MenuUser();
-        managerUser.runUser();
+        MenuAdminManager menuAdminManager = MenuAdminManager.getInstance();
+        menuAdminManager.runMenuAdmin();
     }
 }
